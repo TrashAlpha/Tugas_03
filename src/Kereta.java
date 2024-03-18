@@ -71,6 +71,7 @@ public class Kereta {
             if(namaKomuter != null && namaKomuter.length > 0){
                 System.out.println("==================================================");
                 System.out.println("Daftar penumpang kereta api " + namaKereta +": ");
+                System.out.println("----------------------------");
                 if (namaKomuter.length > 970 && namaKomuter.length < batasTiketKomuter) {
                 System.out.println("Sisa tiket komuter: " + (batasTiketKomuter - namaKomuter.length));
                 }
