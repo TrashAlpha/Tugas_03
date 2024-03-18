@@ -91,7 +91,7 @@ public class Kereta {
             String[] namaKAJJ = tiket.getNamaPenumpang();
             if (namaKAJJ != null && namaKAJJ.length > 0) { // apabila ada penumpang, maka program dibawahnya akan dijalanlankan
                 System.out.println("==================================================");
-                System.out.println("Daftar penumpang kereta api " + namaKereta + ": ");
+                System.out.println("Daftar penumpang kereta api " + namaKereta);
                 for (int i = 0; i < namaKAJJ.length; i++) { // for loop untuk menampilkan nama, asal, dan tujuan penumpang
                     System.out.println("----------------------------");
                     System.out.println("Nama: " + namaKAJJ[i]);
