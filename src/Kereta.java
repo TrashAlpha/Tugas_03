@@ -80,7 +80,7 @@ public class Kereta {
                 System.out.println("==================================================");
                 System.out.println("Daftar penumpang kereta api " + namaKereta +": ");
                 System.out.println("----------------------------");
-                if (namaKomuter.length > 970 && namaKomuter.length < batasTiketKomuter) {
+                if (namaKomuter.length > 970 && namaKomuter.length < batasTiketKomuter) { //apabila sisa tiket lebih kecil dari 30 maka akan di print sisa tiketnya
                 System.out.println("Sisa tiket komuter: " + (batasTiketKomuter - namaKomuter.length));
                 }
                 for (String nama : namaKomuter) { // for-each loop untuk menampilkan nama penumpang
